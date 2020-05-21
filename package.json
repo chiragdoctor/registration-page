@@ -1,0 +1,34 @@
+{
+  "name": "registration-page",
+  "version": "1.0.0",
+  "description": "A page for students registration",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiragdoctor/registration-page.git"
+  },
+  "keywords": [
+    "registration",
+    "nodejs",
+    "app",
+    "javascript"
+  ],
+  "author": "Chirag Doctor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chiragdoctor/registration-page/issues"
+  },
+  "homepage": "https://github.com/chiragdoctor/registration-page#readme",
+  "dependencies": {
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
